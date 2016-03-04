@@ -34,9 +34,9 @@ _ *Note* _: these notes were taken during installation in a Ubuntu 15.10, steps 
 
 It could be that jupyter is not yet there, try with *ipython* instead
 
-    jupyter qtconsole --style monokai
+    ipython qtconsole --style monokai
 
-When a kernel is installed, to launch jupyter with a particular kernel is something like this:
+When a kernel is installed, to launch jupyter with a particular kernel is something like this (in this case julia-0.4 if you have installed it):
 
     jupyter console --kernel=julia-0.4
     
